@@ -78,9 +78,9 @@ function App() {
         <div className="row">
           <div className="col-md-4"></div>
           <div className="col-md-4">
-            <div className='bg-light rounded p-5'>
-              <h1>Simple Interest App</h1>
-              <p>calculate your simple interest easily</p>
+            <div className='bg-light rounded p-2'>
+              <h1 className='d-flex justify-content-center align-items-center'>Simple Interest App</h1>
+              <p className='d-flex justify-content-center align-items-center'>calculate your simple interest easily</p>
               <div className='bg-warning d-flex justify-content-center align-items-center p-4 rounded mt-4 flex-column'>
                 <h1>₹ {interest}</h1>
                 <p>Total simple interest</p>
